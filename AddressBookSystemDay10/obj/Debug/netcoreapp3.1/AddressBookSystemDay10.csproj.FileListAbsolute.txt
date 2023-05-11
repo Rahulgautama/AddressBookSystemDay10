@@ -1,0 +1,11 @@
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\bin\Debug\netcoreapp3.1\AddressBookSystemDay10.exe
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\bin\Debug\netcoreapp3.1\AddressBookSystemDay10.deps.json
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\bin\Debug\netcoreapp3.1\AddressBookSystemDay10.runtimeconfig.json
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\bin\Debug\netcoreapp3.1\AddressBookSystemDay10.runtimeconfig.dev.json
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\bin\Debug\netcoreapp3.1\AddressBookSystemDay10.dll
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\bin\Debug\netcoreapp3.1\AddressBookSystemDay10.pdb
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\obj\Debug\netcoreapp3.1\AddressBookSystemDay10.csprojAssemblyReference.cache
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\obj\Debug\netcoreapp3.1\AddressBookSystemDay10.AssemblyInfoInputs.cache
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\obj\Debug\netcoreapp3.1\AddressBookSystemDay10.AssemblyInfo.cs
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\obj\Debug\netcoreapp3.1\AddressBookSystemDay10.dll
+D:\DLS-RFP-278\Project\AddressBookSystemDay10\AddressBookSystemDay10\obj\Debug\netcoreapp3.1\AddressBookSystemDay10.pdb
