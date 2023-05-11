@@ -32,7 +32,7 @@ namespace AddressBookSystemDay10
                 Console.WriteLine("Main Menu");
                 Console.WriteLine("=========");
                 Console.WriteLine("A - Add an Address");
-                //Console.WriteLine("D - Delete an Address");
+                Console.WriteLine("D - Delete an Address");
                 Console.WriteLine("E - Edit an Address");
                 //Console.WriteLine("L - List All Addresses");
                 Console.WriteLine("Q - Quit");
@@ -88,6 +88,18 @@ namespace AddressBookSystemDay10
                             Console.WriteLine("Enter new Address: ");
                             addr.address = Console.ReadLine();
                             Console.WriteLine("Address updated for {0}", firstName);
+                        }
+                        break;
+                    case "D":
+                        Console.WriteLine("Enter First Name to Delete: ");
+                        firstName = Console.ReadLine();
+                        if (book.remove(firstName))
+                        {
+                            Console.WriteLine("Details successfully removed");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Address for {0} could not be found.", firstName);
                         }
                         break;
 

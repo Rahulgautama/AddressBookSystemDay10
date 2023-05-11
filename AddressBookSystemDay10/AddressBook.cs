@@ -33,6 +33,20 @@ namespace AddressBookSystemDay10
             Address addr = addresses.Find((a) => a.firstName == firstName);
             return addr;
         }
+        public bool remove(string firstName)
+        {
+            Address addr = find(firstName);
+
+            if (addr != null)
+            {
+                addresses.Remove(addr);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
 
     }
