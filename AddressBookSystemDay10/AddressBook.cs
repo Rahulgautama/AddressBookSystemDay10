@@ -47,6 +47,16 @@ namespace AddressBookSystemDay10
                 return false;
             }
         }
+        public void list(Action<Address> action)
+        {
+            addresses.ForEach(action);
+        }
+
+        public bool isEmpty()
+        {
+            return (addresses.Count == 0);
+        }
+
 
 
     }

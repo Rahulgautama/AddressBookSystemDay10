@@ -34,7 +34,7 @@ namespace AddressBookSystemDay10
                 Console.WriteLine("A - Add an Address");
                 Console.WriteLine("D - Delete an Address");
                 Console.WriteLine("E - Edit an Address");
-                //Console.WriteLine("L - List All Addresses");
+                Console.WriteLine("L - List All Addresses");
                 Console.WriteLine("Q - Quit");
             }
 
@@ -102,6 +102,18 @@ namespace AddressBookSystemDay10
                             Console.WriteLine("Address for {0} could not be found.", firstName);
                         }
                         break;
+                    case "L":
+                        if (book.isEmpty())
+                        {
+                            Console.WriteLine("There are no entries.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Addresses:");
+                            book.list((a) => Console.WriteLine("{0} - {1} - {2} - {3} - {4} - {5} - {6} - {7}", a.firstName, a.lastName, a.address, a.state, a.city, a.zip, a.phoneNumber, a.email));
+                        }
+                        break;
+
 
                 }
             }
